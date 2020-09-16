@@ -125,3 +125,45 @@ h1{
     float: right;
     box-shadow: 0 0 2px rgba(0, 0, 0, .5);
 }
+
+@media (max-width: 768px){
+    .letterStyleTitle {
+        letter-spacing: .5px;
+        font-size: 2rem;
+    };
+
+    
+    .py-6 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    };
+
+    .small, small {
+        font-size: 15px;
+    }
+
+    .textResponsiveCenter {
+        text-align: center;
+    }
+
+    .imgTextTitle {
+        font-size: 1.5rem;
+    }
+
+    .imgTextParagraph {
+        font-size: 20px;
+    }
+
+    .btnAlign {
+        float: right;
+    }
+    
+    .cardCity {
+        margin-top: 1rem;
+        font-size: 15px;
+    }
+
+    .imgStyle{
+        width: 100%;
+    };
+}
